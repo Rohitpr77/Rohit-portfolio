@@ -124,7 +124,7 @@ interface ReviewCardProps {
 function ReviewCard({ review }: ReviewCardProps) {
   return (
     <div
-      className="group relative flex-shrink-0 w-[340px] md:w-[400px] rounded-2xl p-7 flex flex-col gap-5 mx-3 overflow-hidden transition-all duration-300"
+      className="group relative flex-shrink-0 w-[85vw] max-w-[340px] md:max-w-none md:w-[400px] rounded-2xl p-7 flex flex-col gap-5 mx-3 overflow-hidden transition-all duration-300"
       style={{
         backgroundColor: "#111111",
         border: "1px solid #1e1e1e",
